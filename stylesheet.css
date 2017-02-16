@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    font-family: arial;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+
+table{
+    border-style: solid;
+    border-collapse: collapse;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+
+td{
+    border-style: solid;
+}
+
+th{
+    font-weight: bolder;
+}
+
+p{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+
+img{    
+    margin-left: 33%;
+    display: block;
+}
+
+a{
+    color: blue;
+}
+
+a:hover
+{
+    color: green;
+}
+
+a:visited{
+    color: orange;
+}
+
+tr:first-of-type{
+    color: blue;
+}
+div :nth-child(1){
+    color:white;
+}
+.header{
+     background-image: url("./terminal.png");  
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#imgDiv{
+    width: 100%;
+}
